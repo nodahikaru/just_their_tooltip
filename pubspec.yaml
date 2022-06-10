@@ -1,0 +1,21 @@
+name: just_their_tooltip
+description: A multi directional tooltip used to display any content with
+  inbuilt support for list views
+version: 0.0.1
+homepage: https://github.com/nodahikaru/just_their_tooltip
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  golden_toolkit: ^0.10.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
